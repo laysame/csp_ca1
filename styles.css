@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    line-height: 1.3;
+    font-weight: normal;
+    margin-bottom: 0.25em;
+    padding: 0;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+section h2 {
+    font-size: 1.4em;
+}
+section h3 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+h6 a {
+    font-size: 0.85em;
+}
+
+ol {
+    counter-reset: item;
+    margin-left: 0;
+}
+
+.main-ordered-list {
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+.card-body h6 {
+    text-align: center;
+}
+
+.first-heading {
+    font-size: 1.8em;
+}
+
+.span-heading1 {
+    font-size: 0.9em;
+    display: block;
+}
+
+.span-heading2 {
+    padding-left: 1em;
+    font-size: 84%;
+    line-height: 1.2em;
+    color: #54595d;
+}
+
+.first-paragraph {
+    margin-top: 12px;
+}
+
+div .card {
+    background-color: #f6f6f6;
+    font-size: 95%;
+    border: 1px solid #a2a9b1;
+}
