@@ -41,11 +41,11 @@ ol {
     padding: 0;
 }
 
-li {
+.ordered-list {
     display: block;
 }
 
-li:before {
+.ordered-list:before {
     content: counters(item, ".") " ";
     counter-increment: item;
 }
@@ -94,4 +94,19 @@ th .plot {
 
 .plot-paragraph {
     margin-bottom: 7px;
+}
+
+.edit {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.span-plot {
+    color: #a2a9b1;
+    font-size: 0.8em;
+    margin-left: 8px;
+}
+
+ul:nth-of-type(3) {
+    list-style-type: disc;
 }
