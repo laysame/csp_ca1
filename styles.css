@@ -21,6 +21,7 @@ h1, h2 {
 section h2 {
     font-size: 1.4em;
 }
+
 section h3 {
     font-size: 1.2em;
     line-height: 1.6;
@@ -77,4 +78,20 @@ div .card {
     background-color: #f6f6f6;
     font-size: 95%;
     border: 1px solid #a2a9b1;
+}
+
+th .plot {
+    background-color: #ffcc33;
+    margin: 0;
+    padding: 0;
+}
+
+.card-plot {
+    background-color: #a2a9b1;
+    display: inline;
+    float: left;
+}
+
+.plot-paragraph {
+    margin-bottom: 7px;
 }
