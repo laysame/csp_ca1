@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <meta name="author" content="Laysa Souza">
-    <meta name="description" content="recreation of a wikipedia's article about Persepolis">
+    <meta name="description" content="recreation of a wikipedia's article about Persepolis (movie)">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -13,20 +13,165 @@
     <title>Persepolis (film) - Wikipedia</title>
 </head>
 <body>
+<!-- every class that I used p, w or m I followed using bootstrap documentation to fix the padding, margin and width  -->
 <div class="wrapper pt-5">
 
     <div class="container">
-
-        <article>
+        <article class="ps-3">
             <h1 class="first-heading w-100"><em>Persepolis</em> (film)</h1>
             <span class="span-heading1">From Wikipedia, the free encyclopedia</span>
             <p class="first-paragraph">
 
             <main>
-                <figure>
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Persepolis_film.jpg/220px-Persepolis_film.jpg"
-                         alt="persepolis movie" class="right">
-                </figure>
+            <!-- First figure with tabular information using class from bootstrap-->
+            <div class="right picture-container ms-2">
+                <div class="card card-movie">
+                    <div class="card-body">
+                        <figure class="figure">
+                            <figcaption class="figure-caption text-center title-figcaption pb-3"><em>Persepolis</em>
+                            </figcaption>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Persepolis_film.jpg/220px-Persepolis_film.jpg"
+                                 class="figure-img img-fluid mt-1 ms-2" alt="persepolis movie's picture">
+                            <figcaption class="figure-caption text-center" style="color: black;">Theatrical release poster</figcaption>
+
+                            <table class="table table-borderless">
+                                <tbody id="table-content">
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Directed by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Marjane Satrapi</li>
+                                            <li>Vincent Paronnaud</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Directed by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Marjane Satrapi</li>
+                                            <li>Vincent Paronnaud</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Based on</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li><em>Persepolis</em></li>
+                                            <li>by Marjane Satrapi</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Produced by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Xavier Rigault</li>
+                                            <li>Marc-Antoine Robert</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Starring</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Chiara Mastroianni</li>
+                                            <li>Catherine Deneuve</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Edited by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Stéphane Roche</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Music by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Olivier Bernet</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Music by</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Olivier Bernet</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Production</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>Celluloid Dreams</li>
+                                            <li>CNC</li>
+                                            <li>France 3 Cinéma</li>
+                                            <li>The Kennedy/Marshall</li>
+                                            <li>Company</li>
+                                            <li>Région Ile-de-France</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Running time</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>96 minutes</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Countries</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>France</li>
+                                            <li>Iran</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Languages</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li>French</li>
+                                            <li>English</li>
+                                            <li>Persian</li>
+                                            <li>German</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Budget</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li> $7.3 million</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="p-0 m-0">Box office</th>
+                                    <td class="m-0 p-0">
+                                        <ul class="table-list">
+                                            <li> $22.8 million</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
                 <strong><em>Persepolis</em></strong> is a 2007 <a
                     href="https://en.wikipedia.org/wiki/Adult_animation" target="_blank">adult animated</a> <a
                     href="https://en.wikipedia.org/wiki/Biographical_film" target="_blank">biographical</a> <a
@@ -380,32 +525,35 @@
                     the original. Then the 'trace' team comes in, and they work on each drawing with...a felt pen,
                     to ensure that they are consistent with the line that runs throughout the movie".<sup>[7]</sup>
                 </p>
-                <p class="section4-paragraph mb-1">
-                    Although it was hard to craft realistic cartoon drawings, Jousset said the biggest challenge was
-                    staying on schedule and within budget of "6 million Euros, which is reasonable for a 2D movie
-                    made in France",<sup>[7]</sup> but that "I think the culmination of the fact that it was a true
-                    story, that
-                    the main character worked with you, that an animated movie dealt with a current issue and that
-                    it was intended for adults was tremendously exciting for the team".<sup>[7]</sup>
-                </p>
             </section>
 
             <section id="section5" class="mt-3">
                 <h2>Reception</h2>
+                <div class="right picture-container">
+                    <figure class="mb-0">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Marjane_Satrapi_mg_7514.jpg/300px-Marjane_Satrapi_mg_7514.jpg"
+                             alt="Marjane Satrapi picture" class="marjane-picture">
+                        <figcaption class="figcaption">
+                            Writer-director <a href="#">Marjane Satrapi</a> at the premiere of Persepolis.
+                        </figcaption>
+                    </figure>
+                </div>
                 <h3 id="section5-1">Critical response <span class="span-plot">[<a href="#"
                                                                                   class="edit">edit</a>]</span></h3>
-                <figure>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Marjane_Satrapi_mg_7514.jpg/300px-Marjane_Satrapi_mg_7514.jpg"
-                         alt="Marjane Satrapi picture" class="right">
-                </figure>
+
                 <p class="section5-paragraph mb-1">
-                    <a href="https://en.wikipedia.org/wiki/Review_aggregator" target="_blank">Review aggregator</a> website
-                    <a href="https://en.wikipedia.org/wiki/Rotten_Tomatoes" target="_blank">Rotten Tomatoes</a> gives the
+
+                    <a href="https://en.wikipedia.org/wiki/Review_aggregator" target="_blank">Review aggregator</a>
+                    website
+                    <a href="https://en.wikipedia.org/wiki/Rotten_Tomatoes" target="_blank">Rotten Tomatoes</a> gives
+                    the
                     film an approval rating of 96% based on 162 reviews,
-                    with an average rating of 8.20/10. The site's consensus reads: "<em>Persepolis</em> is an emotionally
+                    with an average rating of 8.20/10. The site's consensus reads: "<em>Persepolis</em> is an
+                    emotionally
                     powerful,
                     dramatically enthralling autobiographical gem, and the film's simple black-and-white images are
-                    effective and bold".<sup>[8]</sup> <a href="https://en.wikipedia.org/wiki/Metacritic" target="_blank">Metacritic</a>
+                    effective and bold".<sup>[8]</sup> <a href="https://en.wikipedia.org/wiki/Metacritic"
+                                                          target="_blank">Metacritic</a>
                     gives the film a <a href="https://en.wikipedia.org/wiki/Weighted_arithmetic_mean" target="_blank">weighted
                     average</a> score of 90 out of 100 based on 31
                     reviews, indicating "universal acclaim".<sup>[9]</sup>
@@ -416,13 +564,15 @@
                     Sun-Times</a> gave the film four stars out of four, writing that although its
                     black and white animation "may sound <a href="https://en.wikipedia.org/wiki/Sparta" target="_blank">Spartan</a>",
                     it is "surprisingly involving" and that Satrapi's story
-                    is told "caringly, lovingly and with great style". He added, "while so many films about coming of age
+                    is told "caringly, lovingly and with great style". He added, "while so many films about coming of
+                    age
                     involve manufactured dilemmas, here is one about a woman who indeed does come of age, and
                     magnificently."<sup>[10]</sup>
                 </p>
                 <p class="section5-paragraph mb-1">
                     <a href="https://en.wikipedia.org/wiki/Time_(magazine)" target="_blank">Time</a> magazine's <a
-                        href="https://en.wikipedia.org/wiki/Richard_Corliss" target="_blank">Richard Corliss</a> named the
+                        href="https://en.wikipedia.org/wiki/Richard_Corliss" target="_blank">Richard Corliss</a> named
+                    the
                     film one of the Top 10 Movies of 2007, ranking it #6, and
                     called it "a coming-of-age tale that manages to be both harrowing and exuberant".<sup>[11]</sup>
                 </p>
@@ -431,9 +581,20 @@
                                                     target="_blank">Empire magazine's</a> "The 100 Best Films of World
                     Cinema" in 2010.<sup>[12]</sup>
                 </p>
+
                 <h3 id="section5-2" class="mb-0">International government reaction <span class="span-plot">[<a href="#"
                                                                                                                class="edit">edit</a>]</span>
                 </h3>
+                <div class="right picture-container mt-3">
+                    <figure class="mb-0">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/PL_Wwa%2C_plakat_Persepolis%2C_fot_Ivonna_Nowicka_%284%29.jpg/220px-PL_Wwa%2C_plakat_Persepolis%2C_fot_Ivonna_Nowicka_%284%29.jpg"
+                             alt="movies' poster" class="marjane-picture">
+                        <figcaption class="figcaption">
+                            The poster of Persepolis at a tram stop in Warsaw, Poland, in Feb. 2008, fot. <a href="#">Ivonna
+                            Nowicka</a>
+                        </figcaption>
+                    </figure>
+                </div>
                 <p class="section5-paragraph mb-1">
                     The film has drawn complaints from the Iranian government. Even before its debut at the 2007 <a
                         href="https://en.wikipedia.org/wiki/2007_Cannes_Film_Festival" target="_blank">Cannes
@@ -458,9 +619,11 @@
                     consider other issues that might arise here."<sup>[15]</sup>
                 </p>
                 <p class="section5-paragraph mb-1">
-                    <em>Persepolis</em> was initially banned in Lebanon after some clerics found it "offensive to Iran and
+                    <em>Persepolis</em> was initially banned in Lebanon after some clerics found it "offensive to Iran
+                    and
                     Islam."
-                    The ban was later revoked after an outcry in Lebanese intellectual and political circles.<sup>[16]</sup>
+                    The ban was later revoked after an outcry in Lebanese intellectual and political
+                    circles.<sup>[16]</sup>
                 </p>
                 <h3 id="section5-3">Screening controversies <span class="span-plot">[<a href="#"
                                                                                         class="edit">edit</a>]</span>
@@ -468,13 +631,100 @@
                 <p class="section5-paragraph mb-1">
                     On 7 October 2011, the film was shown on the Tunisian private television station <a
                         href="https://en.wikipedia.org/wiki/Nessma" target="_blank">Nessma</a>. A day later a
-                    demonstration formed and marched on the station. The main Islamic party in Tunisia, <a href="https://en.wikipedia.org/wiki/Ennahda" target="_blank">Ennahda</a>, condemned
+                    demonstration formed and marched on the station. The main Islamic party in Tunisia, <a
+                        href="https://en.wikipedia.org/wiki/Ennahda" target="_blank">Ennahda</a>, condemned
                     the demonstration.[17] Nabil Karoui, the owner of Nessma TV, faced trial in Tunis on charges of
-                    "violating sacred values" and "disturbing the public order." He was found guilty and ordered to pay a
+                    "violating sacred values" and "disturbing the public order." He was found guilty and ordered to pay
+                    a
                     fine of 2,400 dinars ($1,700; £1,000), a much more lenient punishment than predicted.[18] Amnesty
-                    International said that criminal proceedings against Karoui are an affront to freedom of expression.[19]
+                    International said that criminal proceedings against Karoui are an affront to freedom of
+                    expression.[19]
                 </p>
+
                 <h3 id="section5-4">Awards <span class="span-plot">[<a href="#" class="edit">edit</a>]</span></h3>
+                <dt class="list-section5">
+                    <a href="https://en.wikipedia.org/wiki/80th_Academy_Awards" target="_blank">80th Academy Awards</a>
+                </dt>
+                <ul>
+                    <li>Nominated: <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature"
+                                      target="_blank">Best Animated Feature</a>.<sup>[2]</sup> Additionally, it is the
+                        first traditionally animated
+                        nominee since 2005's <a href="https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)"
+                                                target="_blank"><em>Howl's Moving Castle</em></a>. It was also France's
+                        <a href="https://en.wikipedia.org/wiki/Academy_Award_for_Best_International_Feature_Film"
+                           target="_blank">Best Foreign Language Film</a>
+                        entry, but was not nominated.
+                    </li>
+                </ul>
+                <dt class="list-section5"><a href="#">65th Golden Globe Awards</a></dt>
+                <ul>
+                    <li>Nominated: <a
+                            href="https://en.wikipedia.org/wiki/Golden_Globe_Award_for_Best_Foreign_Language_Film"
+                            target="_blank">Best Foreign Language Film</a></li>
+                </ul>
+
+                <dt class="list-section5"><a href="#">62nd British Academy Film Awards</a></dt>
+                <ul>
+                    <li>Nominated: <a
+                            href="https://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Film_Not_in_the_English_Language"
+                            target="_blank">Best Film Not in the English Language</a></li>
+                    <li>Nominated: <a href="https://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Animated_Film"
+                                      target="_blank">Best Animated Film</a></li>
+                </ul>
+                <!--All links above have their references with a target blanked but all links bellow have a # for their references (too many!) -->
+                <dt class="list-section5"><a href="#">35th Annie Awards</a></dt>
+                <ul>
+                    <li>Nominated: <a href="#">Best Animated Feature</a></li>
+                    <li>Nominated: <a href="#">Directing in an Animated Feature Production</a></li>
+                    <li>Nominated: <a href="#">Music in an Animated Feature Production</a></li>
+                    <li>Nominated: <a href="#">Writing in an Animated Feature Production</a></li>
+                </ul>
+
+                <dt class="list-section5"><a href="#">33rd César Awards</a></dt>
+                <ul>
+                    <li>Won: <a href="#">Best First Feature Film</a> (Vincent Paronnaud and Marjane Satrapi)</li>
+                    <li>Won: <a href="#">Best Writing – Adaptation</a> (Vincent Paronnaud and Marjane Satrapi)</li>
+                    <li>Nominated: <a href="#">Best Editing</a> (Stéphane Roche)</li>
+                    <li>Nominated: <a href="#">Best Film</a></li>
+                    <li>Nominated: <a href="#">Best Music Written for a Film</a> (Olivier Bernet)</li>
+                    <li>Nominated: <a href="#">Best Sound</a> (Samy Bardet, Eric Chevallier and Thierry Lebon)</li>
+                </ul>
+                <dt class="list-section5"><a href="#">2007 Cannes Film Festival</a><sup>[3]</sup></dt>
+                <ul>
+                    <li><strong>Tied</strong>: <a href="#">Jury Prize</a></li>
+                    <li> Nominated: <a href="#">Palme d'Or</a></li>
+                </ul>
+                <dt class="list-section5"><a href="#">20th European Film Awards</a></dt>
+                <ul>
+                    <li>Nominated: <a href="#">Best Film</a></li>
+                </ul>
+
+                <dt class="list-section5"><a href="#">3rd Globes de Cristal Award</a></dt>
+                <ul>
+                    <li> Won: <a href="#">Best Film</a></li>
+                </ul>
+
+                <dt class="list-section5"><a href="#">2007 London Film Festival</a></dt>
+                <ul>
+                    <li><a href="#">Southerland Trophy</a> (Grand prize of the festival)</li>
+                </ul>
+                <dt class="list-section5"><a href="#">2007 Cinemanila International Film Festival</a></dt>
+                <ul>
+                    <li>Special Jury Prize</li>
+                </ul>
+
+                <dt class="list-section5"><a href="#">2007 São Paulo International Film Festival</a></dt>
+                <ul>
+                    <li>Won: <a href="#">Best Foreign Language Film</a></li>
+                </ul>
+                <dt class="list-section5"><a href="#">2007 Vancouver International Film Festival</a></dt>
+                <ul>
+                    <li>Won: Rogers People's Choice Award for Most Popular International Film</li>
+                </ul>
+                <dt class="list-section5"><a href="#">2009 Silver Condor Awards</a></dt>
+                <ul>
+                    <li>Won: <a href="#">Silver Condor Award for Best Foreign Film</a></li>
+                </ul>
             </section>
 
             <section id="section6" class="mt-3">
@@ -491,6 +741,28 @@
 
             <section id="section7" class="mt-3">
                 <h2>Further reading <span class="span-plot">[<a href="#" class="edit">edit</a>]</span></h2>
+                <ul>
+                    <li>Hohenadel, Kristin (21 January 2007). <a href="#">"An Animated Adventure, Drawn From Life" <i class="fa-solid fa-up-right-from-square"></i></a>.
+                        <a href="#"><em>The New York
+                            Times</em></a>. Retrieved 21 December 2013.
+                    </li>
+                    <li>Thompson, N. P. (26 January 2008). <a href="#">"Iranian life in cartoon motion"<i class="fa-solid fa-up-right-from-square"></i></a>. Northwest
+                        Asian Weekly.
+                        Seattle. Archived from the original on 30 November 2
+                    </li>
+                    <li>Thompson, N. P. (26 January 2008). <a href="#">"Iranian life in cartoon motion"</a>. Northwest
+                        Asian Weekly.
+                        Seattle. Archived from <a href="#">the original <i class="fa-solid fa-up-right-from-square"></i></a> on 30 November 2012. Retrieved 21 December
+                        2013.
+                    </li>
+                    <li>Satrapi, Marjane (February 2008). "<a href="#">Marjane Satrapi <i class="fa-solid fa-up-right-from-square"></i></a>". ION Magazine (Interview).
+                        Interviewed by
+                        Michael Mann. Vancouver: ION Publishing. Retrieved 21 December 2013.
+                    </li>
+                    <li>DePaul, Amy (5 February 2008). <a href="#">"Man with a Country: Amy DePaul interviews Seyed Mohammad
+                        Marandi"</a>. <a href="#"><em>Guernica</em> <i class="fa-solid fa-up-right-from-square"></i></a>. New York. Retrieved 21 December 2013.
+                    </li>
+                </ul>
             </section>
 
             <section id="section8" class="mt-3">
@@ -524,30 +796,12 @@
         </article>
     </div>
 </div>
-
 </div>
 
-
 <footer>
-    <p class="text-center">Coded by <a href="https://github.com/laysame"><i class="fa-brands fa-github"></i> Laysa Souza</a>
+    <p class="text-center m-0 p-0">Coded by <a href="https://github.com/laysame"><i class="fa-brands fa-github"></i>
+        Laysa Souza</a> | Original article on <a href="https://en.wikipedia.org/wiki/Persepolis_(film)" target="_blank">Wikipedia</a>
     </p>
 </footer>
 </body>
 </html>
-
-<!-- Must contain:
- 1. a table of contents
- 2. at least 3 article sections with a heading
- 3. at least 3 illustrations/pictures
- 4. some tabular information (contained in a table or a few)
- 5. see also section at the end of the page
- 6. references at the end of the page
-
- recreate:
-** Use semantic tags when working with <body>’s direct children: <header>, <main>,
-<footer>
-** Use <nav> as a table of contents and populate it with links to sections (don’t forget to use
-a unique id attribute for each section and correct anchors with #) inside an unordered list
-** Use semantic constructs, such as <article>, <section>, <figure>, etc.
-** Ensure the table is correctly constructed and also has the appropriate semantic tags
- -->
