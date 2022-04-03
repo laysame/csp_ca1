@@ -14,6 +14,14 @@ a {
     cursor: pointer;
 }
 
+footer a {
+    color: darkmagenta;
+}
+
+footer a:hover {
+    color: black;
+}
+
 h1, h2 {
     font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
     line-height: 1.3;
@@ -98,11 +106,6 @@ div .card {
     border: 1px solid #a2a9b1;
 }
 
-div .card-plot {
-    margin-left: 8em;
-    border-radius: 0;
-}
-
 .section1-paragraph {
     margin-bottom: 7px;
 }
@@ -112,23 +115,9 @@ div .card-plot {
     font-size: 0.9em;
 }
 
-.span-plot {
-    color: #a2a9b1;
-    font-size: 0.8em;
-    margin-left: 8px;
-}
-
 .nav {
     border-right: 1px solid #e0edf6;
     background-color: #f6f6f6;
-}
-
-div .card-movie {
-    margin-top: 9.5em;
-    border-radius: 0;
-    position: absolute;
-    top: 0;
-    right: 16em;
 }
 
 .table-list {
@@ -179,3 +168,15 @@ section .picture-container {
     line-height: 1.4em;
     padding: 5px;
 }
+
+li i {
+    font-size: 10px;
+}
+
+.card-movie {
+    border-radius: 0;
+}
+
+.text-version {
+     font-weight: bold;
+ }
